@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/main.css">
 </head>
-<body>
+<body data-spy="scroll" data-target="#my-navbar">
 <!-- Nav Bar -->
 	<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
 		<div class="container">
@@ -28,8 +28,8 @@
 					<li><a href="#indians">Indian Superstars</a></li>
 					<li><a href="#internationals">International Superstars</a></li>
 					<li><a href="#highlight">Highlights</a></li>
-					<li><a href="#results">Results</a></li>
-					<li><a href="#news">News Feed</a></li>
+					<li><a href="#previous">Previously</a></li>
+					<li><a href="#contact">Contact Us</a></li>
 				</ul>
 			</div>
 		</div>
@@ -53,35 +53,35 @@
 			</div>
 			
 			<div class="row text-center">
-				<div class="col-lg-4">
+				<div class="col-md-4">
 				<blockquote>
 				<img src="images/pv.JPG" class="scImage">
 				<footer>P V Sindhu</footer>
 				</blockquote>
 				</div>
 				
-				<div class="col-lg-4">
+				<div class="col-md-4">
 				<blockquote>
 				<img src="images/sakshi.JPG" class="scImage">
 				<footer>Sakshi Mallik</footer>
 				</blockquote>
 				</div>
 				
-				<div class="col-lg-4">
+				<div class="col-md-4">
 				<blockquote>
 				<img src="images/saina.JPG" class="scImage">
 				<footer >Saina Nehwal</footer>
 				</blockquote>
 				</div>
 				
-				<div class="col-lg-4">
+				<div class="col-md-4">
 				<blockquote>
 				<img src="images/dipa.JPG" class="scImage">
 				<footer>Dipa Karmakar</footer>
 				</blockquote>
 				</div>
 				
-				<div class="col-lg-4">
+				<div class="col-md-4">
 				<blockquote>
 				<img src="images/aditi.JPG" class="scImage">
 				<footer>Aditi ashok</footer>
@@ -137,7 +137,7 @@
 	<div class="container text-center" >
 	<h3 id="highlight">Highlights !</h3>
 	<div class="row">
-		<div class="col-lg-4">
+		<div class="col-md-4">
 			<div class="panel panel-default">
 				<div class="panel-body">
 				<span class="glyphicon glyphicon-equalizer"></span>
@@ -147,7 +147,7 @@
 			</div>
 		</div>
 		
-		<div class="col-lg-4">
+		<div class="col-md-4">
 			<div class="panel panel-default">
 				<div class="panel-body">
 				<span class="glyphicon glyphicon-equalizer"></span>
@@ -156,7 +156,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-lg-4">
+		<div class="col-md-4">
 			<div class="panel panel-default">
 				<div class="panel-body">
 				<span class="glyphicon glyphicon-equalizer"></span>
@@ -166,11 +166,141 @@
 		</div>
 	</div>
 	</div>
+	<!-- Collapsable Panel -->
+	<div class="container" id="previous">
+		<section>
+			<div class="page-header" id="previous">
+				<h2>Previous <small> 2012 London Olympics</small></h2>
+			</div>
+			<div class="row">
+			<div class="col-md-4">
+				<div class="panel-group" id="accordion">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<div class="panel-title">
+								<a href="#collapse-1" data-toggle="collapse" data-parent="accordion"> Badminton </a>
+							</div>
+						<div id="collapse-1" class="panel-collapse collapse">
+							<div class="panel-body">
+								Saina Nehwal won bronze
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+				</div>
+				<div class="col-md-4">
+				<div class="panel-group" id="accordion">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<div class="panel-title">
+								<a href="#collapse-2" data-toggle="collapse" data-parent="accordion"> Wrestling </a>
+							</div>
+						<div id="collapse-2" class="panel-collapse collapse">
+							<div class="panel-body">
+								Yogeshwar Dutt
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+				</div>
+				<div class="col-md-4">
+				<div class="panel-group" id="accordion">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<div class="panel-title">
+								<a href="#collapse-3" data-toggle="collapse" data-parent="accordion"> Shooting </a>
+							</div>
+						<div id="collapse-3" class="panel-collapse collapse">
+							<div class="panel-body">
+								Abhinav Bindra
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+				</div>
+			</div>
+			
+		</section>
+	</div>
+	<!-- End Previous -->
 	
-	
-	
+	<div class="container">
+		<section>
+		<div class="page-header" id="contact">
+			<h2>Contact Us <small> Contact us for more.</small></h2>
+		</div>
+		
+		<div class="row">
+			<div class="col-md-4">
+				<p> Send a message or contact from address below</p>
+				
+				<address>
+					<strong>Rio Olympics 2016</strong></BR>
+					111, Malviya Nagar</br>
+					Plot No. 45</br>
+					Nagpur - 440022</br>
+					P: +91 9475639965
+				</address>
+			</div>
+			
+			<div class="col-md-8">
+				<form action="" class="form-horizontal">
+					<div class="form-group">
+						<label for="user-name" class="col-md-2 cotrol-label">
+							Name
+						</label>
+						<div class="col-md-10">
+							<input type="text" class="form-control" id="user-name" palceholder="Name">
+						</div>
+					</div>
+					
+					<div class="form-group">
+						<label for="email" class="col-md-2 cotrol-label">
+							Email
+						</label>
+						<div class="col-md-10">
+							<input type="email" class="form-control" id="email" palceholder="Email">
+						</div>
+					</div>
+					
+					<div class="form-group">
+						<label for="user-name" class="col-md-2 cotrol-label">
+							URL
+						</label>
+						<div class="col-md-10">
+							<input type="text" class="form-control" id="url" palceholder="url">
+						</div>
+					</div>
+					
+					<div class="form-group">
+						<label for="user-message" class="col-md-2 cotrol-label">
+							Message
+						</label>
+						<div class="col-md-10">
+							<textarea name="user-message" id="user-message" class="form-control" cols="20" rowws="10" placeholder="Message"></textarea>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-md-10 col-md-offset-2">
+							<button type="submit" class="btn btn-primary">Submit</button>
+						</div>
+					
+					</div>
+					
+				</form>
+				
+			</div>
+		
+		</div>
+		
+		</section> 
+	</div>
 		<!-- Call to action -->
-	<section>
+	
+	<footer>
 		<div class="well ">
 			<div class="container text-center" >
 			<br><br>
@@ -186,9 +316,19 @@
 					<button class="btn btn-info">Subscribe</button>
 					<hr> 
 				</form>
+				<ul class="list-inline">
+					<li><a href="">Twitter</a></li>
+					<li><a href="">Facebook</a></li>
+					<li><a href="">Youtube</a></li>
+				</ul>
+				<p>&copy; Copyright-Onkaar Singh @ 2016</p>
 				</div>
-		</div>
-	</section><!-- Call to action -->
+			</div>
+		
+			
+			
+	</footer><!-- Call to action --> 
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>

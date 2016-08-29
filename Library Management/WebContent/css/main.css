@@ -1,0 +1,16 @@
+
+jumbotron{
+	background-color:#8A2BE2 !important; 
+}
+
+.scImage{
+	height: 260px;
+	width: 260px;
+}
+
+.carousel .carousel-inner{
+	height: 250px;
+	width: 100%; 
+	margin: 0px auto;
+}
+

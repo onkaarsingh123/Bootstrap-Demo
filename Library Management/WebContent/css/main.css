@@ -3,6 +3,10 @@ jumbotron{
 	background-color:#8A2BE2 !important; 
 }
 
+body{
+	padding-top: 30px;
+}
+
 .scImage{
 	height: 230px;
 	width: 80%;
@@ -23,3 +27,48 @@ jumbotron{
 	padding : 30px;
 }
 
+div.myform{
+	width: 50%;
+}
+
+
+/* Customize the navbar links to be fill the entire space of the .navbar */
+
+.navbar .navbar-inner {
+    padding: 0;
+}
+
+.navbar .nav {
+    margin: 0;
+    display: table;
+    width: 85%;
+}
+
+.tab-content {
+	height: 420px;
+}
+
+.navbar .nav > li {
+    display: table-cell;
+    width: 1%;
+    float: none;
+    text-align: center;
+}
+
+.navbar .nav li:first-child a {
+    border-left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.navbar .nav li:last-child a {
+    border-right: 0;
+    border-radius: 0 3px 3px 0;
+}
+
+.navbar .nav a:hover {
+	background-color: green;
+}
+
+.navbar .nav a:active {
+	background-color: red;
+}
